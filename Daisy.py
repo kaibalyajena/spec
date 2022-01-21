@@ -69,7 +69,10 @@ if __name__ == "__main__":
 
 
         elif 'your name' in query:
-            speak("My name is Daisy and i am laptop assistant of my creater Vishwas")
+            speak("My name is Spec   and i am laptop assistant of my creater Vishwas and Kaibalya")
+
+        elif 'how are you' in query:
+            speak("I am fine, how are you sir")
 
         elif 'open youtube' in query:
             speak('opening...')
@@ -86,12 +89,7 @@ if __name__ == "__main__":
             print('opening')
             webbrowser.open("www.google.com")
 
-        elif 'kota factory season 2' in query:
-            speak('opening')
-            print('opening')
-            webbrowser.open("https://fulltube.cc/kota-factory-2021-hindi-season-2/")
-
-        elif 'Discord' in query:
+        elif 'discord' in query:
             webbrowser.open("https://discord.com/channels/@me")
             speak("Opening discord")
             print("opening discord")
