@@ -160,7 +160,7 @@ if __name__ == "__main__":
             os.system("shutdown /s /t5")
 
         elif "close" in query:
-            speak("Thanks for working with me. Bye  Bye sir")
+            speak("Thanks for working with me. Bye  Bye sir ,Have a nice day ")
             sys.exit()
 
         else:
