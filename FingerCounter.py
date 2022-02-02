@@ -81,7 +81,7 @@ while True:
                       (0,0,255),cv2.FILLED)
 
         cv2.putText(img,str(total_fingers_open), (70, 350),
-                    cv2.FONT_HERSHEY_COMPLEX, 3, (0, 255, 0), 3)
+                    cv2.FONT_HERSHEY_COMPLEX, 3, (255, 0, 0), 3)
 
     cTime=time.time()
     #current time for fps calculation
